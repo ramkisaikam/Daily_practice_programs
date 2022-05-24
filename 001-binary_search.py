@@ -1,5 +1,5 @@
 
-def search(nums, target) :
+def binary_search(nums, target) :
     left = 0
     right = len(nums) - 1
 
@@ -19,5 +19,5 @@ def search(nums, target) :
 
 List = [-1,0,1,2,6,7,9,15,22]
 target = 9
-index = search(nums=List,target=target)
+index = binary_search(nums=List,target=target)
 print(index)
